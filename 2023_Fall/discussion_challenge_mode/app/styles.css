@@ -1,0 +1,105 @@
+/* Container background color */
+.forum-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Post title */
+h1 {
+    font-size: 24px;
+    color: #333; /* Dark gray text color */
+}
+
+/* Post text */
+p {
+    font-size: 18px;
+    color: #444; /* Slightly darker gray text color */
+}
+
+/* Comments section */
+.comments {
+    margin-top: 20px;
+}
+
+/* Comments heading */
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Individual comment */
+.comment {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Comment input section */
+.comment-input-container {
+    margin-top: 20px;
+}
+
+/* Label for comment input */
+label {
+    font-size: 18px;
+    color: #333;
+}
+
+.buttons-container {
+  display: flex; /* Use flexbox to align items horizontally */
+  gap: 10px; /* Adjust the gap to control the spacing between buttons */
+}
+
+/* Submit button disabled CSS */
+button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Comment input field */
+.comment-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+/* Submit button */
+.comment-submit {
+    background-color: #007BFF; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.comment-submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* GPT result section */
+.gpt-result {
+    margin-top: 20px;
+}
+
+/* Heading for GPT result */
+h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Text for GPT result */
+p {
+    font-size: 16px;
+    color: #444; /* Slightly darker gray text color */
+}
