@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Forms</title>
+</head>
+<body>
+    <h1>Emotion Analysis</h1>
+    <form id="emotionForm">
+        <label for="comment">Comment:</label>
+        <input type="text" id="comment" name="comment" required>
+        <button type="button" onclick="submitEmotionForm()">Submit</button>
+    </form>
+    <div id="emotionResponse"></div>
+
+    <h1>Counter</h1>
+    <form id="counterForm">
+        <label for="topic">Topic:</label>
+        <input type="text" id="topic" name="topic" required>
+        <br>
+        <label for="commentCounter">Comment:</label>
+        <input type="text" id="commentCounter" name="commentCounter" required>
+        <button type="button" onclick="submitCounterForm()">Submit</button>
+    </form>
+    <div id="counterResponse"></div>
+
+    <script>
+        function submitEmotionForm() {
+            const comment = document.getElementById('comment').value;
+            const emotionResponseDiv = document.getElementById('emotionResponse');
+
+            // Create a JSON object
+            const data = { comment: comment };
+
+            // Send a POST request with the JSON payload
+            fetch('/emotion', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            }).then(response => response.json()) // Assuming the response is in JSON format
+            .then(data => {
+                // Display the response in the 'emotionResponse' div
+                emotionResponseDiv.innerHTML = JSON.stringify(data);
+            }).catch(error => {
+                // Handle any errors that occurred during the POST request
+                emotionResponseDiv.innerHTML = 'Error: ' + error.message;
+            });
+        }
+
+        function submitCounterForm() {
+            const topic = document.getElementById('topic').value;
+            const commentCounter = document.getElementById('commentCounter').value;
+            const counterResponseDiv = document.getElementById('counterResponse');
+
+            // Create a JSON object
+            const data = { topic: topic, comment: commentCounter };
+
+            // Send a POST request with the JSON payload
+            fetch('/counter', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            }).then(response => response.json()) // Assuming the response is in JSON format
+            .then(data => {
+                // Display the response in the 'counterResponse' div
+                counterResponseDiv.innerHTML = JSON.stringify(data);
+            }).catch(error => {
+                // Handle any errors that occurred during the POST request
+                counterResponseDiv.innerHTML = 'Error: ' + error.message;
+            });
+        }
+    </script>
+</body>
+</html>
