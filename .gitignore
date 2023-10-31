@@ -8,6 +8,8 @@ __pycache__/
 
 # Distribution / packaging
 discussion_challenge_mode/node_modules/
+post_sentiment_analysis/node_modules/
+.DS_Store
 .Python
 build/
 develop-eggs/
