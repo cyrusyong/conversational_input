@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Text Highlighter</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Water Bottles</h1>
+        <p>Select text to highlight and add reactions:</p>
+        <div class="text-container" id="text-container">
+            <p>Water bottles are often criticized for their negative environmental impact. One of the primary reasons
+                they are considered bad is their contribution to plastic pollution. The majority of water bottles are
+                made from non-biodegradable plastic, which takes hundreds of years to decompose, filling landfills and
+                oceans with harmful waste. Additionally, the production of plastic bottles consumes vast amounts of
+                fossil fuels and releases greenhouse gases, contributing to climate change. Moreover, the extraction and
+                transportation of bottled water require substantial energy resources, further exacerbating environmental
+                issues. This practice also leads to the privatization of water resources, making clean water less
+                accessible to marginalized communities. Overall, the convenience of water bottles comes at a significant
+                cost to the environment and society, making them a problematic choice in the context of sustainability
+                and conservation.
+            </p>
+        </div>
+        <div class="reactions">
+            <button class="reaction-button" onclick="addReaction('like')">Like</button>
+            <button class="reaction-button" onclick="addReaction('dislike')">Dislike</button>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <h1>Water Bottles</h1>
+        <p>Select button to see highlights</p>
+        <div class="text-container" id="text-container">
+            <p>Water bottles are often criticized for their negative environmental impact. One of the primary reasons
+                they are considered bad is their contribution to plastic pollution. The majority of water bottles are
+                made from non-biodegradable plastic, which takes hundreds of years to decompose, filling landfills and
+                oceans with harmful waste. Additionally, the production of plastic bottles consumes vast amounts of
+                fossil fuels and releases greenhouse gases, contributing to climate change. Moreover, the extraction and
+                transportation of bottled water require substantial energy resources, further exacerbating environmental
+                issues. This practice also leads to the privatization of water resources, making clean water less
+                accessible to marginalized communities. Overall, the convenience of water bottles comes at a significant
+                cost to the environment and society, making them a problematic choice in the context of sustainability
+                and conservation.
+            </p>
+        </div>
+        <div class="reactions">
+            <button class="see-reaction-button" onclick="addReaction('like')">Like</button>
+            <button class="see-reaction-button" onclick="addReaction('dislike')">Dislike</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Text Highlighter with Likes</h1>
+        <p>Select text to highlight and click "Like" to show only liked text:</p>
+        <div class="text-container" id="text-container-2">
+            <p id="t3">Water bottles are often criticized for their negative environmental impact. One of the primary
+                reasons they are considered bad is their contribution to plastic pollution. The majority of water
+                bottles are made from non-biodegradable plastic, which takes hundreds of years to decompose, filling
+                landfills and oceans with harmful waste. Additionally, the production of plastic bottles consumes vast
+                amounts of fossil fuels and releases greenhouse gases, contributing to climate change. Moreover, the
+                extraction and transportation of bottled water require substantial energy resources, further
+                exacerbating environmental issues. This practice also leads to the privatization of water resources,
+                making clean water less accessible to marginalized communities. Overall, the convenience of water
+                bottles comes at a significant cost to the environment and society, making them a problematic choice in
+                the context of sustainability and conservation.
+            </p>
+        </div>
+        
+    </div> -->
+    <div class="container">
+        <h1>View reactions of other people</h1>
+        <div class="text-container" id="text-container">
+            <p>
+                <span id="like-1">Water bottles are often criticized for their negative environmental
+                    impact. </span>
+                <span  id="like-2"> One of the primary reasons they are considered bad is
+                    their contribution to plastic pollution. </span>
+                <span id="like-3">The majority of water
+                    bottles are made from non-biodegradable plastic, which takes hundreds of years to decompose, filling
+                    landfills and oceans with harmful waste.</span>
+                <span  id="like-4">Additionally, the
+                    production of plastic bottles consumes vast amounts of fossil fuels and releases greenhouse gases,
+                    contributing to climate change. </span>
+                <span  id="like-5">Moreover, the extraction and
+                    transportation of bottled water require substantial energy resources, further exacerbating
+                    environmental
+                    issues. </span>
+                <span  id="like-6">This practice also leads to the privatization of water
+                    resources, making clean water less accessible to marginalized communities. </span>
+                <span  id="like-7">Overall, the convenience of water bottles comes at a significant cost to
+                    the
+                    environment and society, making them a problematic choice in the context of sustainability and
+                    conservation.</span>
+            </p>
+        </div>
+        <button id="like-button">Like</button>
+        <button id="dislike-button">Dislike</button>
+    </div>
+    <div class="popup" onclick="myFunction()">Click me to toggle the popup!
+        <span class="popuptext" id="myPopup">A Simple Popup!</span>
+      </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
