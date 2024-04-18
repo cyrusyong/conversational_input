@@ -1,0 +1,100 @@
+/* App.css */
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* Using a modern font */
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  /* Using a light gray background */
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  /* Increased border-radius for a modern look */
+}
+
+/* Form */
+form {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.8rem;
+  /* Increased padding */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  /* Increased font size */
+}
+
+button[type="submit"] {
+  background-color: #3f51b5;
+  /* Using a modern blue color */
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  /* Increased padding */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  /* Increased font size */
+  transition: background-color 0.3s ease;
+  /* Adding a transition effect */
+}
+
+button[type="submit"]:hover {
+  background-color: #283593;
+  /* Darker blue on hover */
+}
+
+/* User Data */
+.user-data {
+  margin-top: 2rem;
+}
+
+.user-data h2 {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  /* Reduced font weight for a cleaner look */
+}
+
+.user-data pre {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+header {
+  background-color: #3f51b5;
+  /* Using a modern blue color */
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  /* Reduced font weight for a cleaner look */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

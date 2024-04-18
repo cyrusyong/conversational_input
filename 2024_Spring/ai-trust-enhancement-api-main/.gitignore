@@ -1,0 +1,5 @@
+*_sherlock.txt
+.DS_Store
+*.txt
+frontend/node_modules
+output.json

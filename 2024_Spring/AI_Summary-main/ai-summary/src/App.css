@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --neutral-color: #f8f9fa;
+  --text-color: #212529;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  background-color: var(--neutral-color);
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+input,
+select,
+button {
+  padding: 0.75rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.section {
+  margin-bottom: 1rem;
+}
+
+.gptClarification {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  background-color: var(--neutral-color);
+  border-radius: 6px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--secondary-color);
+  margin: 1.5rem 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
