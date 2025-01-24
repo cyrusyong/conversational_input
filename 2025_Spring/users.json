@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Alice",
+        "gender": "Female",
+        "year": "Sophomore",
+        "minor": "Business",
+        "location": "Remote",
+        "interests": ["Soccer", "Cooking", "Reading"]
+    },
+    {
+        "name": "Bob",
+        "gender": "Male",
+        "year": "Junior",
+        "minor": "AI",
+        "location": "In Person",
+        "interests": ["Basketball", "Gaming", "Coding"]
+    },
+    {
+        "name": "Chloe",
+        "gender": "Female",
+        "year": "Senior",
+        "minor": "Psychology",
+        "location": "In Person",
+        "interests": ["Yoga", "Tennis", "Painting"]
+    },
+    {
+        "name": "David",
+        "gender": "Male",
+        "year": "Freshman",
+        "minor": "Physics",
+        "location": "Remote",
+        "interests": ["Chess", "Cycling", "Running"]
+    },
+    {
+        "name": "Emily",
+        "gender": "Female",
+        "year": "Sophomore",
+        "minor": "Math",
+        "location": "In Person",
+        "interests": ["Reading", "Cooking", "Running"]
+    },
+    {
+        "name": "Frank",
+        "gender": "Male",
+        "year": "Senior",
+        "minor": "Business",
+        "location": "Remote",
+        "interests": ["Football", "Coding", "Gaming"]
+    },
+    {
+        "name": "Grace",
+        "gender": "Female",
+        "year": "Junior",
+        "minor": "Engineering",
+        "location": "In Person",
+        "interests": ["Swimming", "Hiking", "Yoga"]
+    },
+    {
+        "name": "Henry",
+        "gender": "Male",
+        "year": "Sophomore",
+        "minor": "AI",
+        "location": "In Person",
+        "interests": ["Soccer", "Chess", "Photography"]
+    },
+    {
+        "name": "Isabella",
+        "gender": "Female",
+        "year": "Freshman",
+        "minor": "Art",
+        "location": "Remote",
+        "interests": ["Dancing", "Painting", "Hiking"]
+    },
+    {
+        "name": "Jack",
+        "gender": "Male",
+        "year": "Senior",
+        "minor": "Economics",
+        "location": "In Person",
+        "interests": ["Basketball", "Cycling", "Football"]
+    }
+]
