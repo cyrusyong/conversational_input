@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+    <!-- Sidebar -->
+    <div class="md:col-span-1 space-y-4">
+        <div class="bg-white p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg mb-2">Courses</h3>
+            <ul class="space-y-2">
+                {% for course in courses %}
+                <li>
+                    <a href="{{ url_for('main.index', course=course[0]) }}"
+                       class="text-blue-600 hover:underline">
+                        {{ course[0] }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <div class="bg-white p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg mb-2">Tags</h3>
+            <div class="flex flex-wrap gap-2">
+                {% for tag in tags %}
+                <a href="{{ url_for('main.index', tag=tag.name) }}"
+                   class="bg-gray-200 px-2 py-1 rounded-full text-sm hover:bg-gray-300">
+                    {{ tag.name }}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="md:col-span-3">
+        <div class="mb-4 flex justify-between items-center">
+            <div class="space-x-2">
+                <a href="{{ url_for('main.index', sort='new') }}"
+                   class="text-blue-600 hover:underline">New</a>
+                <a href="{{ url_for('main.index', sort='top') }}"
+                   class="text-blue-600 hover:underline">Top</a>
+            </div>
+            <a href="{{ url_for('main.create_post') }}"
+               class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                Create Post
+            </a>
+        </div>
+        
+        {% for post in posts %}
+        <div class="bg-white p-4 rounded-lg shadow mb-4">
+            <div class="flex items-center space-x-4">
+                <div class="flex flex-col items-center">
+                    <button onclick="votePost({{ post.id }}, 'up')"
+                            class="text-gray-500 hover:text-blue-500">▲</button>
+                    <span id="votes-{{ post.id }}"
+                          class="font-bold">{{ post.votes }}</span>
+                    <button onclick="votePost({{ post.id }}, 'down')"
+                            class="text-gray-500 hover:text-blue-500">▼</button>
+                </div>
+                <div class="flex-1">
+                    <h2 class="text-xl font-bold">{{ post.title }}</h2>
+                    <div class="text-sm text-gray-600 mb-2">
+                        Posted by {{ post.author.username }} in {{ post.course }}
+                    </div>
+                    {% if post.image_url %}
+                    <div class="mt-4">
+                        <img src="{{ post.image_url }}" 
+                            alt="Post image" 
+                            class="max-w-full h-auto rounded-lg shadow-md">
+                    </div>
+                    {% endif %}
+                    <p class="text-gray-800">{{ post.content }}</p>
+                    <div class="mt-2 flex flex-wrap gap-2">
+                        {% for tag in post.tags %}
+                        <span class="bg-gray-200 px-2 py-1 rounded-full text-sm">
+                            {{ tag.name }}
+                        </span>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% if post.media %}
+                <div class="mt-4">
+                    <div class="grid grid-cols-2 gap-2">
+                        {% for media in post.media %}
+                            {% if media.file_type == 'image' %}
+                            <div class="relative group">
+                                <img src="{{ url_for('static', filename='uploads/images/' + media.filename) }}"
+                                    alt="Post image"
+                                    class="w-full h-32 object-cover rounded cursor-pointer"
+                                    onclick="openImageModal(this.src)">
+                            </div>
+                            {% else %}
+                            <div class="flex items-center space-x-2 bg-gray-100 p-2 rounded">
+                                <span class="text-gray-500">📄</span>
+                                <a href="{{ url_for('static', filename='uploads/documents/' + media.filename) }}"
+                                target="_blank"
+                                class="text-blue-600 hover:underline text-sm">
+                                    {{ media.original_filename }}
+                                </a>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<div id="image-modal" class="fixed inset-0 bg-black bg-opacity-75 hidden flex items-center justify-center z-50">
+    <div class="max-w-4xl w-full mx-4">
+        <img id="modal-image" src="" alt="Enlarged image" class="w-full">
+        <button onclick="closeImageModal()" 
+                class="absolute top-4 right-4 text-white text-xl font-bold">
+            ✕
+        </button>
+    </div>
+</div>
+<script>
+function votePost(postId, voteType) {
+    fetch(`/post/${postId}/vote`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ vote_type: voteType })
+    })
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById(`votes-${postId}`).textContent = data.votes;
+    });
+}
+function openImageModal(src) {
+    const modal = document.getElementById('image-modal');
+    const modalImage = document.getElementById('modal-image');
+    modal.classList.remove('hidden');
+    modalImage.src = src;
+}
+
+function closeImageModal() {
+    const modal = document.getElementById('image-modal');
+    modal.classList.add('hidden');
+}
+
+// Close modal when clicking outside the image
+document.getElementById('image-modal').addEventListener('click', function(e) {
+    if (e.target === this) {
+        closeImageModal();
+    }
+});
+</script>
+{% endblock %}

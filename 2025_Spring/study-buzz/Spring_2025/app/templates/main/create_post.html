@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+{% block title %}Create Post{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
+    <h2 class="text-2xl font-bold mb-6">Create a New Post</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="title">
+                Title
+            </label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                   id="title" type="text" name="title" required>
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="course">
+                Course
+            </label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                   id="course" type="text" name="course" required>
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="content">
+                Content
+            </label>
+            <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      id="content" name="content" rows="6" required></textarea>
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2">
+                Tags
+            </label>
+            <div class="flex flex-wrap gap-2">
+                {% for tag in tags %}
+                <label class="inline-flex items-center">
+                    <input type="checkbox" name="tags" value="{{ tag.name }}" class="form-checkbox">
+                    <span class="ml-2">{{ tag.name }}</span>
+                </label>
+                {% endfor %}
+            </div>
+            <div class="mt-2">
+                <input type="text" id="new-tag" class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                       placeholder="Add new tag">
+                <button type="button" onclick="addNewTag()" class="bg-gray-500 text-white px-4 py-2 rounded ml-2">Add Tag</button>
+            </div>
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2">
+                Add Media
+            </label>
+            <div class="space-y-4">
+                <!-- Image upload -->
+                <div>
+                    <label class="block text-sm text-gray-600">Images (PNG, JPG, GIF)</label>
+                    <input type="file" 
+                           name="images" 
+                           multiple 
+                           accept="image/*"
+                           class="w-full"
+                           onchange="previewImages(event)">
+                    <div id="image-preview" class="grid grid-cols-2 gap-2 mt-2"></div>
+                </div>
+
+                <!-- Document upload -->
+                <div>
+                    <label class="block text-sm text-gray-600">Documents (PDF, DOC, DOCX)</label>
+                    <input type="file" 
+                           name="documents" 
+                           multiple 
+                           accept=".pdf,.doc,.docx"
+                           class="w-full"
+                           onchange="updateFileList(event)">
+                    <div id="file-list" class="mt-2 text-sm text-gray-600"></div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="photo">
+                Add Photo
+            </label>
+            <input type="file" 
+                   name="photo" 
+                   accept="image/*"
+                   class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                   onchange="previewImage(event)">
+            <div id="image-preview" class="mt-2"></div>
+        </div>
+
+        <!-- Submit button -->
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                type="submit">
+            Create Post
+        </button>
+    </form>
+</div>
+
+<script>
+function addNewTag() {
+    const newTagInput = document.getElementById('new-tag');
+    const tagName = newTagInput.value.trim();
+    
+    if (tagName) {
+        fetch('{{ url_for("main.create_tag") }}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `tag_name=${encodeURIComponent(tagName)}`
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                location.reload();
+            }
+        });
+    }
+}
+function previewImage(event) {
+    const preview = document.getElementById('image-preview');
+    preview.innerHTML = '';
+    
+    Array.from(event.target.files).forEach(file => {
+        if (file.type.startsWith('image/')) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const div = document.createElement('div');
+                div.className = 'relative';
+                
+                const img = document.createElement('img');
+                img.src = e.target.result;
+                img.className = 'w-full h-32 object-cover rounded';
+                
+                div.appendChild(img);
+                preview.appendChild(div);
+            }
+            reader.readAsDataURL(file);
+        }
+    });
+}
+
+function updateFileList(event) {
+    const fileList = document.getElementById('file-list');
+    fileList.innerHTML = '';
+    
+    Array.from(event.target.files).forEach(file => {
+        const div = document.createElement('div');
+        div.className = 'flex items-center space-x-2';
+        
+        const icon = document.createElement('span');
+        icon.className = 'text-gray-500';
+        icon.innerHTML = '📄';
+        
+        const name = document.createElement('span');
+        name.textContent = file.name;
+        
+        div.appendChild(icon);
+        div.appendChild(name);
+        fileList.appendChild(div);
+    });
+}
+</script>
+{% endblock %}
