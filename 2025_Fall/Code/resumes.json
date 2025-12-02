@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Sarah Thompson",
+    "summary": "Friendly, reflective, determined military spouse seeking flexible remote role with purpose.",
+    "skills": [
+      "Scheduling",
+      "EMR Basics",
+      "Customer Service",
+      "Interview Prep",
+      "Google Workspace",
+      "Community Outreach"
+    ],
+    "experience": [
+      {
+        "role": "Volunteer Coordinator",
+        "organization": "Community Health Network",
+        "bullets": [
+          "Coordinated 20 volunteers across 3 sites; reduced scheduling conflicts by 25%.",
+          "Piloted call scripts improving patient follow-up rate by 18%."
+        ]
+      },
+      {
+        "role": "Remote Tutor (Part-time)",
+        "organization": "Local Education Nonprofit",
+        "bullets": [
+          "Delivered weekly virtual sessions; raised average learner quiz scores by 15%.",
+          "Built trust with families through regular check-ins and progress notes."
+        ]
+      }
+    ],
+    "education": [
+      { "degree": "B.A. Communication", "school": "State University" }
+    ],
+    "certifications": ["CPR", "Basic Life Support (BLS)"]
+  },
+
+  {
+    "name": "Michael Reyes",
+    "summary": "Organized, calm under pressure; seeks remote operations/logistics role supporting distributed teams.",
+    "skills": [
+      "Logistics",
+      "Inventory",
+      "Excel",
+      "Vendor Management",
+      "Scheduling",
+      "Process Improvement"
+    ],
+    "experience": [
+      {
+        "role": "Logistics Coordinator",
+        "organization": "Regional Supply Co.",
+        "bullets": [
+          "Managed weekly shipments across 5 bases; cut delays by 20%.",
+          "Created Excel tracker to reduce inventory discrepancies by 30%."
+        ]
+      },
+      {
+        "role": "Operations Assistant",
+        "organization": "On-Base Commissary",
+        "bullets": [
+          "Optimized vendor delivery windows; reduced stockouts by 15%.",
+          "Trained 6 new staff on SOPs and safety."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "A.A.S. Business Administration",
+        "school": "Community College"
+      }
+    ],
+    "certifications": ["Lean Six Sigma Yellow Belt"]
+  },
+
+  {
+    "name": "Aisha Khan",
+    "summary": "Compassionate healthcare worker transitioning to remote/telehealth support or patient navigation.",
+    "skills": [
+      "EMR (Epic basics)",
+      "Patient Intake",
+      "Care Coordination",
+      "De-escalation",
+      "Phone Triage",
+      "Documentation"
+    ],
+    "experience": [
+      {
+        "role": "Medical Assistant",
+        "organization": "Family Care Clinic",
+        "bullets": [
+          "Processed 40+ daily patient check-ins; maintained 98% data accuracy.",
+          "Standardized intake script; reduced average call time by 12%."
+        ]
+      },
+      {
+        "role": "Volunteer Health Navigator",
+        "organization": "Community Health Nonprofit",
+        "bullets": [
+          "Connected 60+ families to services; tracked outcomes in shared EMR notes.",
+          "Built multilingual resource sheet for relocating families."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Medical Assistant Certificate",
+        "school": "Allied Health Institute"
+      }
+    ],
+    "certifications": ["CPR", "BLS", "HIPAA Awareness Training"]
+  },
+
+  {
+    "name": "Daniel Park",
+    "summary": "Tech-savvy problem solver moving from IT support to entry-level cybersecurity (remote).",
+    "skills": [
+      "Help Desk",
+      "Ticketing (Jira)",
+      "Windows/Mac Admin",
+      "Networking Basics",
+      "Scripting (Python)",
+      "Security Awareness"
+    ],
+    "experience": [
+      {
+        "role": "IT Support Specialist",
+        "organization": "EduTech Charter",
+        "bullets": [
+          "Closed 50+ tickets/week; improved first-contact resolution by 22%.",
+          "Automated laptop imaging with Python; cut setup time by 35%."
+        ]
+      },
+      {
+        "role": "Volunteer Tech Lead",
+        "organization": "Base Family Center",
+        "bullets": [
+          "Secured Wi-Fi and device access policies for 120+ users.",
+          "Ran monthly security 101 workshops; reduced phishing clicks."
+        ]
+      }
+    ],
+    "education": [
+      { "degree": "B.S. Information Technology", "school": "State University" }
+    ],
+    "certifications": ["CompTIA Security+ (in progress)"]
+  },
+
+  {
+    "name": "Elena Garcia",
+    "summary": "Creative communicator seeking remote marketing/communications role with social impact.",
+    "skills": [
+      "Social Media",
+      "Content Writing",
+      "Canva",
+      "Email Campaigns",
+      "Analytics",
+      "Community Partnerships"
+    ],
+    "experience": [
+      {
+        "role": "Communications Assistant",
+        "organization": "Neighborhood Arts Council",
+        "bullets": [
+          "Planned content calendar; grew Instagram engagement by 45% in 3 months.",
+          "Launched newsletter (38% open rate, 7% CTR)."
+        ]
+      },
+      {
+        "role": "Program Coordinator",
+        "organization": "Base Youth Services",
+        "bullets": [
+          "Managed 12-week program; increased teen participation by 28%.",
+          "Built local sponsor relationships; raised $6,000 in in-kind donations."
+        ]
+      }
+    ],
+    "education": [{ "degree": "B.A. Marketing", "school": "City University" }],
+    "certifications": [
+      "Google Analytics (GA4) Basics",
+      "HubSpot Email Marketing"
+    ]
+  },
+  {
+    "name": "Emily Chen",
+    "summary": "Asian American military spouse transitioning into software development; frequent relocations, strong communicator, building technical portfolio.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React (beginner)",
+      "Python basics",
+      "Git",
+      "Figma",
+      "Customer Support",
+      "Communication"
+    ],
+    "experience": [
+      {
+        "role": "Freelance Web Developer (Projects)",
+        "organization": "Self-Directed",
+        "bullets": [
+          "Built responsive portfolio site with React; improved Lighthouse performance from 62 to 95.",
+          "Redesigned local nonprofit homepage; raised average session duration by 28%."
+        ]
+      },
+      {
+        "role": "Customer Support Representative",
+        "organization": "SaaS Helpdesk (Remote)",
+        "bullets": [
+          "Resolved 40+ tickets/week; 94% CSAT; wrote internal FAQ articles.",
+          "Collaborated with engineering to reproduce bugs; reduced reopen rate by 18%."
+        ]
+      }
+    ],
+    "education": [
+      { "degree": "B.S. Communication", "school": "State University" },
+      {
+        "degree": "CS/Web Dev Coursework (in progress)",
+        "school": "Online (Coursera/edX)"
+      }
+    ],
+    "certifications": ["freeCodeCamp Responsive Web Design (in progress)"]
+  },
+  {
+    "name": "Marcus Green",
+    "summary": "Senior Software Engineer passionate about mentoring nontraditional entrants; focuses on interview prep, project coaching, and networking strategies.",
+    "skills": [
+      "Java",
+      "Python",
+      "REST APIs",
+      "SQL",
+      "System Design",
+      "Code Review",
+      "Mentorship",
+      "Interview Prep"
+    ],
+    "experience": [
+      {
+        "role": "Senior Software Engineer",
+        "organization": "Mid-Sized Tech Company",
+        "bullets": [
+          "Led backend for billing service; cut API p95 latency from 480ms to 160ms.",
+          "Mentored 6 junior devs; 3 promoted within 12 months."
+        ]
+      },
+      {
+        "role": "Volunteer Mentor",
+        "organization": "Tech Mentorship Programs (various)",
+        "bullets": [
+          "Guided 10+ career switchers through projects and whiteboard practice.",
+          "Ran monthly mock interviews; standardized feedback rubric to improve signal."
+        ]
+      }
+    ],
+    "education": [
+      { "degree": "B.S. Computer Science", "school": "State University" }
+    ],
+    "certifications": ["AWS Certified Developer – Associate"]
+  },
+  {
+    "name": "Avery Carter",
+    "summary": "Registered Nurse and military spouse with compact-state license, exploring telehealth roles that move with the family.",
+    "skills": [
+      "Nursing",
+      "RN",
+      "Telehealth",
+      "Care Coordination",
+      "EMR",
+      "Epic",
+      "Patient Education"
+    ],
+    "experience": [
+      {
+        "role": "Telehealth Registered Nurse",
+        "organization": "Multi-State Health Network",
+        "bullets": [
+          "Handled virtual triage for 50+ patients/week across compact-license states; maintained 95% satisfaction.",
+          "Coordinated follow-up care plans with providers and care coordinators to reduce repeat calls by 18%."
+        ]
+      },
+      {
+        "role": "Staff Nurse",
+        "organization": "Regional Medical Center",
+        "bullets": [
+          "Managed 4–5 patients per shift on med-surg floor; recognized for accurate charting and calm bedside manner.",
+          "Precepted 3 new nurses; created quick-reference guides for common protocols."
+        ]
+      }
+    ],
+    "education": [{ "degree": "B.S. Nursing", "school": "State University" }],
+    "certifications": [
+      "Registered Nurse (RN)",
+      "Compact License",
+      "BLS",
+      "ACLS"
+    ]
+  },
+  {
+    "name": "Jordan Lee",
+    "summary": "Remote-first project manager and military spouse network lead; keeps complex projects and people aligned across time zones.",
+    "skills": [
+      "Project Management",
+      "Scheduling",
+      "Stakeholder Communication",
+      "Excel",
+      "Jira",
+      "Confluence"
+    ],
+    "experience": [
+      {
+        "role": "Project Manager",
+        "organization": "Remote SaaS Company",
+        "bullets": [
+          "Led cross-functional squad (eng, design, CS) to deliver features on a 3-month roadmap with 95% on-time completion.",
+          "Set up Jira workflow and dashboards; reduced status-check meetings by 30%."
+        ]
+      },
+      {
+        "role": "Military Spouse Network Lead",
+        "organization": "On-Base Spouse Association",
+        "bullets": [
+          "Coordinated monthly meetups and resource shares for 40+ spouses across rotations.",
+          "Built simple Excel tracker for local employers and remote-friendly roles; improved job leads follow-through."
+        ]
+      }
+    ],
+    "education": [
+      { "degree": "B.A. Business Administration", "school": "City University" }
+    ],
+    "certifications": ["CAPM (in progress)"]
+  },
+  {
+    "name": "Taylor Morgan",
+    "summary": "Elementary teacher and military spouse focused on license portability, substitute roles, and remote tutoring options.",
+    "skills": [
+      "Teaching",
+      "Curriculum Design",
+      "Classroom Management",
+      "Reading Intervention",
+      "Google Classroom"
+    ],
+    "experience": [
+      {
+        "role": "Elementary Teacher (3rd Grade)",
+        "organization": "Public School District",
+        "bullets": [
+          "Designed reading intervention groups that improved benchmark scores for 12 students by an average of 18%.",
+          "Implemented classroom routines that cut transition time by ~10 minutes/day."
+        ]
+      },
+      {
+        "role": "Substitute Teacher & Remote Tutor",
+        "organization": "Multiple Schools / Private Clients",
+        "bullets": [
+          "Adapted quickly to new classrooms; maintained behavior expectations across 10+ schools.",
+          "Tutored 6 students online; created shared Google Classroom resources for parents and learners."
+        ]
+      }
+    ],
+    "education": [
+      { "degree": "B.A. Elementary Education", "school": "Regional University" }
+    ],
+    "certifications": [
+      "State Teaching License",
+      "Reading Endorsement (in progress)"
+    ]
+  },
+  {
+    "name": "CHRISTINE BENNET",
+    "summary": "Veteran teacher with 10+ years in the classroom, exploring roles in coaching, curriculum, or flexible teaching assignments.",
+    "skills": [
+      "Organization",
+      "Critical Thinking",
+      "Classroom Management",
+      "Adaptability",
+      "Blackboard",
+      "Leadership",
+      "Creativity",
+      "Problem-Solving"
+    ],
+    "experience": [
+      {
+        "role": "Lead Teacher (4th–5th Grade)",
+        "organization": "Seattle Public School",
+        "bullets": [
+          "Planned cross-curricular projects that increased student engagement scores by 22%.",
+          "Mentored 3 new teachers; shared classroom-management systems adopted across the grade level."
+        ]
+      },
+      {
+        "role": "Grade-Level Team Lead",
+        "organization": "Seattle Public School",
+        "bullets": [
+          "Facilitated monthly planning meetings; aligned pacing guides and common assessments.",
+          "Piloted new Blackboard workflows; reduced parent email confusion by centralizing updates."
+        ]
+      }
+    ],
+    "education": [{ "degree": "B.A. Education", "school": "State University" }],
+    "certifications": ["State Teaching License", "ESL Endorsement"]
+  }
+]
