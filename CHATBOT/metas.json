@@ -1,0 +1,421 @@
+[
+  {
+    "source": "https://moore.armymwr.com",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "We are the Army's Home",
+    "fetched_at": "2025-12-02T19:05:39.206866+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/relocation-readiness-program",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Relocation Readiness Program",
+    "fetched_at": "2025-12-02T19:05:41.933809+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/survivor-outreach-services",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Survivor Outreach Services",
+    "fetched_at": "2025-12-02T19:05:43.852795+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/civilian-employment-assignment-tool-ceat",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Civilian Employment Assignment Tool (CEAT)",
+    "fetched_at": "2025-12-02T19:05:44.524840+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/parent-central",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Parent Central",
+    "fetched_at": "2025-12-02T19:05:45.447604+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/child-development-centers",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Child Care Centers, Pre-K and School Age Center",
+    "fetched_at": "2025-12-02T19:05:45.595547+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/school-support-services",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "School Support Services & Homeschools",
+    "fetched_at": "2025-12-02T19:05:46.800976+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/visitors",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Family Days & Graduations",
+    "fetched_at": "2025-12-02T19:05:47.710150+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/recycle-program",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Recycle Program",
+    "fetched_at": "2025-12-02T19:05:48.556583+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/mwr-library",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Milton E. Long Library",
+    "fetched_at": "2025-12-02T19:05:49.618021+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/veterinary-services",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Veterinary Services",
+    "fetched_at": "2025-12-02T19:05:50.569214+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/33830",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Laundromat",
+    "fetched_at": "2025-12-02T19:05:51.492652+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Programs :: Ft. Benning :: US Army MWR",
+    "fetched_at": "2025-12-02T19:05:54.569487+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/bingo",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "MWR Bingo",
+    "fetched_at": "2025-12-02T19:05:55.810896+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/bowling-centers",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Bowling Centers",
+    "fetched_at": "2025-12-02T19:05:57.063914+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/destin-army-recreation-area",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Destin Army Recreation Area",
+    "fetched_at": "2025-12-02T19:05:58.290540+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/uchee-creek-campground-and-marina",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Uchee Creek Campground & Marina",
+    "fetched_at": "2025-12-02T19:05:58.401224+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/tickets-travel-office",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Tickets & Travel Office",
+    "fetched_at": "2025-12-02T19:05:58.514217+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/fort-moore-golf-course",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Golf Course",
+    "fetched_at": "2025-12-02T19:05:59.661176+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/outdoor-recreation",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Outdoor Recreation",
+    "fetched_at": "2025-12-02T19:06:01.055642+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/hunting-fishing",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Hunting & Fishing",
+    "fetched_at": "2025-12-02T19:06:02.191289+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/parks-ponds-trails",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Parks, Ponds & Trails",
+    "fetched_at": "2025-12-02T19:06:03.493922+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/recreational-shooting-complex",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Recreational Shooting Complex",
+    "fetched_at": "2025-12-02T19:06:04.626064+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/swimming",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Swimming",
+    "fetched_at": "2025-12-02T19:06:04.723600+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/new-fort-moore",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "New to Fort Benning?",
+    "fetched_at": "2025-12-02T19:06:05.794441+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/acs/family-advocacy",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Family Advocacy Program",
+    "fetched_at": "2025-12-02T19:06:06.780837+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/family-child-care",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Family Child Care - FCC",
+    "fetched_at": "2025-12-02T19:06:06.969774+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/school-age-centers",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Child Care Centers, Pre-K and School Age Center",
+    "fetched_at": "2025-12-02T19:06:07.202447+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/school-support-services/youth-sponsorship",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Youth Sponsorship",
+    "fetched_at": "2025-12-02T19:06:08.253748+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/youth-sports",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Youth Sports & Fitness/Instructional Programs",
+    "fetched_at": "2025-12-02T19:06:08.393997+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/acs/employment-readiness-program",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Employment Readiness",
+    "fetched_at": "2025-12-02T19:06:09.300730+00:00"
+  },
+  {
+    "source": "https://moore.armymwr.com/programs/home-based-business",
+    "label": "MWR",
+    "category": "family-life",
+    "title": "Home Based Businesses",
+    "fetched_at": "2025-12-02T19:06:10.433280+00:00"
+  },
+  {
+    "source": "https://www.usajobs.gov/help/working-in-government/unique-hiring-paths/military-spouses/",
+    "label": "USAJOBS Spouse Hiring Path",
+    "category": "career",
+    "title": "Untitled",
+    "fetched_at": "2025-12-02T19:06:12.406599+00:00"
+  },
+  {
+    "source": "https://dol.georgia.gov",
+    "label": "GA Dept. of Labor",
+    "category": "career",
+    "title": "Georgia Department of Labor",
+    "fetched_at": "2025-12-02T19:06:12.590146+00:00"
+  },
+  {
+    "source": "https://dol.georgia.gov/locations/career-center",
+    "label": "GA Dept. of Labor",
+    "category": "career",
+    "title": "Find a Career Center",
+    "fetched_at": "2025-12-02T19:06:13.739521+00:00"
+  },
+  {
+    "source": "https://www.gafutures.org",
+    "label": "GA Futures (HOPE/State Aid)",
+    "category": "education",
+    "title": "Georgia Student Finance Commission",
+    "fetched_at": "2025-12-02T19:06:13.870993+00:00"
+  },
+  {
+    "source": "https://www.gafutures.org/hope-state-aid-programs/",
+    "label": "GA Futures (HOPE/State Aid)",
+    "category": "education",
+    "title": "Georgia Student Finance Commission",
+    "fetched_at": "2025-12-02T19:06:15.265200+00:00"
+  },
+  {
+    "source": "https://www.muscogee.k12.ga.us",
+    "label": "Muscogee County Schools",
+    "category": "schools",
+    "title": "Home",
+    "fetched_at": "2025-12-02T19:06:15.413382+00:00",
+    "published": "2025-12-01T08:00:00-05:00"
+  },
+  {
+    "source": "https://military.columbusstate.edu",
+    "label": "Columbus State University - Military",
+    "category": "education",
+    "title": "Dedicated Service for Military-Connected Students",
+    "fetched_at": "2025-12-02T19:06:16.813794+00:00"
+  },
+  {
+    "source": "https://www.villagesofbenning.com",
+    "label": "Villages of Benning",
+    "category": "housing",
+    "title": "Elevated On-Post Living",
+    "fetched_at": "2025-12-02T19:06:17.284579+00:00"
+  },
+  {
+    "source": "https://www.villagesofbenning.com/residents",
+    "label": "Villages of Benning",
+    "category": "housing",
+    "title": "Residents",
+    "fetched_at": "2025-12-02T19:06:18.483510+00:00"
+  },
+  {
+    "source": "https://www.columbusga.gov",
+    "label": "Columbus, GA - Residents",
+    "category": "local",
+    "title": "Columbus Georgia",
+    "fetched_at": "2025-12-02T19:06:18.899375+00:00"
+  },
+  {
+    "source": "https://kids.kiddle.co/Fort_Moore",
+    "label": "user-submitted",
+    "category": "user-submitted",
+    "title": "Fort Moore Facts for Kids",
+    "fetched_at": "2025-12-02T21:02:31.749983+00:00",
+    "chunk_count": 8,
+    "ingest_type": "url",
+    "chunk_index": 0
+  },
+  {
+    "source": "https://kids.kiddle.co/Fort_Moore",
+    "label": "user-submitted",
+    "category": "user-submitted",
+    "title": "Fort Moore Facts for Kids",
+    "fetched_at": "2025-12-02T21:02:31.749983+00:00",
+    "chunk_count": 8,
+    "ingest_type": "url",
+    "chunk_index": 1
+  },
+  {
+    "source": "https://kids.kiddle.co/Fort_Moore",
+    "label": "user-submitted",
+    "category": "user-submitted",
+    "title": "Fort Moore Facts for Kids",
+    "fetched_at": "2025-12-02T21:02:31.749983+00:00",
+    "chunk_count": 8,
+    "ingest_type": "url",
+    "chunk_index": 2
+  },
+  {
+    "source": "https://kids.kiddle.co/Fort_Moore",
+    "label": "user-submitted",
+    "category": "user-submitted",
+    "title": "Fort Moore Facts for Kids",
+    "fetched_at": "2025-12-02T21:02:31.749983+00:00",
+    "chunk_count": 8,
+    "ingest_type": "url",
+    "chunk_index": 3
+  },
+  {
+    "source": "https://kids.kiddle.co/Fort_Moore",
+    "label": "user-submitted",
+    "category": "user-submitted",
+    "title": "Fort Moore Facts for Kids",
+    "fetched_at": "2025-12-02T21:02:31.749983+00:00",
+    "chunk_count": 8,
+    "ingest_type": "url",
+    "chunk_index": 4
+  },
+  {
+    "source": "https://kids.kiddle.co/Fort_Moore",
+    "label": "user-submitted",
+    "category": "user-submitted",
+    "title": "Fort Moore Facts for Kids",
+    "fetched_at": "2025-12-02T21:02:31.749983+00:00",
+    "chunk_count": 8,
+    "ingest_type": "url",
+    "chunk_index": 5
+  },
+  {
+    "source": "https://kids.kiddle.co/Fort_Moore",
+    "label": "user-submitted",
+    "category": "user-submitted",
+    "title": "Fort Moore Facts for Kids",
+    "fetched_at": "2025-12-02T21:02:31.749983+00:00",
+    "chunk_count": 8,
+    "ingest_type": "url",
+    "chunk_index": 6
+  },
+  {
+    "source": "https://kids.kiddle.co/Fort_Moore",
+    "label": "user-submitted",
+    "category": "user-submitted",
+    "title": "Fort Moore Facts for Kids",
+    "fetched_at": "2025-12-02T21:02:31.749983+00:00",
+    "chunk_count": 8,
+    "ingest_type": "url",
+    "chunk_index": 7
+  },
+  {
+    "source": "uploaded://4a4c1d2fb3eb/Cyrus_Yong.pdf",
+    "label": "uploaded-file",
+    "category": "uploaded-file",
+    "title": "Cyrus_Yong.pdf",
+    "fetched_at": "2025-12-02T21:03:40.076589+00:00",
+    "chunk_count": 4,
+    "ingest_type": "file",
+    "file_name": "Cyrus_Yong.pdf",
+    "chunk_index": 0
+  },
+  {
+    "source": "uploaded://4a4c1d2fb3eb/Cyrus_Yong.pdf",
+    "label": "uploaded-file",
+    "category": "uploaded-file",
+    "title": "Cyrus_Yong.pdf",
+    "fetched_at": "2025-12-02T21:03:40.076589+00:00",
+    "chunk_count": 4,
+    "ingest_type": "file",
+    "file_name": "Cyrus_Yong.pdf",
+    "chunk_index": 1
+  },
+  {
+    "source": "uploaded://4a4c1d2fb3eb/Cyrus_Yong.pdf",
+    "label": "uploaded-file",
+    "category": "uploaded-file",
+    "title": "Cyrus_Yong.pdf",
+    "fetched_at": "2025-12-02T21:03:40.076589+00:00",
+    "chunk_count": 4,
+    "ingest_type": "file",
+    "file_name": "Cyrus_Yong.pdf",
+    "chunk_index": 2
+  },
+  {
+    "source": "uploaded://4a4c1d2fb3eb/Cyrus_Yong.pdf",
+    "label": "uploaded-file",
+    "category": "uploaded-file",
+    "title": "Cyrus_Yong.pdf",
+    "fetched_at": "2025-12-02T21:03:40.076589+00:00",
+    "chunk_count": 4,
+    "ingest_type": "file",
+    "file_name": "Cyrus_Yong.pdf",
+    "chunk_index": 3
+  }
+]
