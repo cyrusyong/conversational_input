@@ -1,6 +1,11 @@
 # conversational_input
 Conversational Input for CareerCorps VIP
 
+# How to Run
+
+Navigate to the root directory of the project and run `npm i`
+
+Navigate into the src folder and run `npm run dev`
 
 # React + Vite
 
