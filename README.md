@@ -1,34 +1,29 @@
-# Military Spouse Job Connect - AI Chatbot Frontend
+# conversational_input
+Conversational Input for CareerCorps VIP
 
-A React.js frontend application for an AI chatbot designed to help military spouses connect with job opportunities and career resources.
+# How to Run
 
-## Running the full stack
+Navigate to the root directory of the project and run  
 
-1. **Back-end (Python RAG service)**
-   ```bash
-   pip install -r requirements.txt
-   cd CHATBOT
-   source venv/bin/activate
-   python server.py
-   ```
-   The chatbot endpoint is exposed at `POST /api/chat` and returns JSON with `reply` and `sources`.
+`npm i`
 
-2. **Front-end (React)**
-   ```bash
-   npm install
-   REACT_APP_RAG_API_URL=http://localhost:8000/api/chat npm start
-   ```
-   The React widget will POST user prompts to the Python backend and stream responses back into the chat window.
+Navigate into the src folder and run 
 
-## Curated Fort Moore seed list
+`npm run dev`
 
-All crawl sources live in `CHATBOT/seed_config.json`. Add or edit entries there to expand the Fort Moore corpus (each seed controls allowed domains, follow patterns, crawl depth, etc.).
+# React + Vite
 
-## Rebuilding the RAG corpus and index
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Run the automated crawler/encoder to update `docs.json`, `metas.json`, and the FAISS index from the seed plan:
-```bash
-source CHATBOT/venv/bin/activate
-python -m CHATBOT.build_corpus
-```
-> **Heads-up:** This issues live HTTP requests to the Fort Moore resource sites. Respect the configured rate limits, and expect the run to take a few minutes while documents are fetched and embedded.
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
